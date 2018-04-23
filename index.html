@@ -17,7 +17,7 @@
 
   <title>Title page</title>  
 
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+</head>
 
 <body class="minimal">
 <div id="site-border-left"></div>
@@ -37,11 +37,11 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Works</a></li>
-          <li><a href="./about.html" title="">03 : About me</a></li>
-          <li><a href="./contact.html" title="">04 : Contact</a></li>
-          <li><a href="./components.html" title="">05 : Components</a></li>
+          <li><a href="#" id="bt_how_are" title="">How are you?</a></li>
+          <li><a href="#" id="bt_what_you" title="">What you do?</a></li>
+          <li><a href="#" id="bt_what_university" title="">What did you do during university?</a></li>
+          <li><a href="#" id="bt_what_industry" title="">And in the industry?</a></li>
+          <li><a href="#" id="bt_what_tools" title="">Do you have favorite tools?</a></li>
         </ul>
 
 
@@ -50,35 +50,88 @@
   </nav>
 </header>
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')">
+<div class="hero-full-container background-image-container white-text-container"
+     style="background-image: url('../assets/images/space.jpg')">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm James Dean</span>
-                  <span>French Designer</span>
-                  <span>Working as a Freelance</span>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="hero-full-wrapper">
+                    <div class="text-content" style="color: white;
+    font-size: 50px;
+    font-family: Roboto;
+    line-height: normal;">
+                        <!--<h1>Hello,<br>-->
+                        <span id="typed_how_are_you" style="display: none">
+                    <span>Hello!</span>
+                  <span>I'm Nailton Andrade</span>
+                    <span>and I'm in love with the Web!</span>
+                            <span>...</span>
                 </span>
-                <span id="typed"></span>
-              </h1>
+                        <span id="typed_what_you_do" style="display: none">
+                            <span>I'm Master in Computer Science</span>
+                  <span>and I currently work as Full Stack Web Developer</span>
+                            <span>...</span>
+                </span>
+
+                        <span id="typed_what_university" style="display: none">
+<span>in university I used both C and Python, I already wrote a <u><a style="color: #f7b731"
+                                                                   href="https://www.passeidireto.com/arquivo/1804873/compiladores-perl-light">compiler</a></u> (in C++), <u><a
+        style="color: #fd9644" href="https://www.youtube.com/watch?v=9_3mQdtPfH8">games</a></u> in 2011 (with the dead Flash AS3!!) ...</span>
+                   <span>I also participated in the <u><a style="color: #a55eea"
+                                                          href="http://www.wiser.ufba.br/">WISER research group</a></u> at the university - there I learned to work in group and to work on devices like Arduino (and also to burn XD devices) ...</span>
+                    <span>and publish scientific articles about <u><a style="color: #71de60"
+                                                                      href="https://dl.acm.org/citation.cfm?id=2820440">Internet of Things</a></u> and <u><a
+                            style="color: #fed330" href="https://dl.acm.org/citation.cfm?id=2664573">Semantic Web of Things</a></u>.</span>
+                </span>
+
+                        <span id="typed_what_industry" style="display: none">
+                    <span>In industry, I have already developed projects for large companies, such as a <u><a
+                            href="http://gente.lebiscuit.com.br/login" style="color: #a55eea">people management portal</a></u> and <u><a
+                            href="http://trabalheconosco.lebiscuit.com.br/" style="color: #0fb9b1">recruitment portal</a></u>...</span>
+
+                </span>
+
+                        <span id="typed_what_tools" style="display: none">
+                            <span>Today (2018), my preferred set of tools is Linux, Docker, Gitlab Pipeline, PM2, JavaScript, Node, Angular 4, MySQL and MongoDB.</span>
+                    <span>However, I have worked with Kotlin, Java, Spring Framework and Semantic Web Technologies.</span>
+                    <span>It will be a pleasure to <u><a style="color: #fa8231"
+                                                         href="https://www.linkedin.com/in/nailton-andrade-msc/">talk</a></u> about technology with you! =)</span>
+                    <span style="color: #8854d0">Best regards.</span>
+                        </span>
+
+                        <span id="typed1"></span>
+                        <span id="typed2"></span>
+                        <span id="typed3"></span>
+                        <span id="typed4"></span>
+                        <span id="typed5"></span>
+                        </h1>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
+    document.addEventListener("DOMContentLoaded", function (event) {
+        type();
+        movingBackgroundImage();
+    });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118033146-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118033146-1');
 </script>
 
 
-<script type="text/javascript" src="./main.70a66962.js"></script></body>
+<script type="text/javascript" src="/main.js"></script></body>
 
 </html>
